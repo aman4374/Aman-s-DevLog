@@ -108,7 +108,7 @@ export default function Home() {
       {/* Testimonial 1 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"This blog has been my go-to resource for learning new programming languages and techniques."</p>
+          <p className="text-gray-600 dark:text-gray-400">This blog has been my go-to resource for learning new programming languages and techniques.</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Sarah Johnson</h3>
           <p className="text-gray-500 dark:text-gray-300">Full-Stack Developer</p>
         </div>
@@ -116,7 +116,7 @@ export default function Home() {
       {/* Testimonial 2 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"The tutorials here are always clear and insightful, perfect for anyone wanting to level up their coding skills."</p>
+          <p className="text-gray-600 dark:text-gray-400">The tutorials here are always clear and insightful, perfect for anyone wanting to level up their coding skills.</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Alex Carter</h3>
           <p className="text-gray-500 dark:text-gray-300">Software Engineer</p>
         </div>
@@ -124,7 +124,7 @@ export default function Home() {
       {/* Testimonial 3 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"I love how this blog breaks down complex topics into digestible content. It's been a tremendous help."</p>
+          <p className="text-gray-600 dark:text-gray-400">I love how this blog breaks down complex topics into digestible content. It's been a tremendous help.</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Emily Davis</h3>
           <p className="text-gray-500 dark:text-gray-300">DevOps Specialist</p>
         </div>
