@@ -14,6 +14,8 @@ const blogs = dirContent.map(file=>{
 })
 
 
+
+
 // const blogs = [
 //   {
 //     title: 'First Blog',

@@ -70,7 +70,7 @@ export default function About() {
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Taking on Challenges</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  With several years of experience under this belt, I began tackling more significant challenges. From contributing to open-source projects to developing his own applications,I continued to push my limits, always looking for opportunities to learn and grow. My journey wasn’t without its setbacks, but each obstacle was a stepping stone to becoming the skilled developer he is today.
+                  With several years of experience under this belt, I began tackling more significant challenges. From contributing to open-source projects to developing his own applications,I continued to push my limits, always looking for opportunities to learn and grow. My journey wasn't without its setbacks, but each obstacle was a stepping stone to becoming the skilled developer he is today.
                 </p>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function About() {
               <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Giving Back</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  Today, I am not only a proficient coder but also a regularl contributer to the programming community by writing tutorials, giving talks, and helping new coders find their footing in the world of software development. For me, coding is more than just a profession—it’s a lifelong journey of learning and sharing knowledge.
+                  Today, I am not only a proficient coder but also a regularl contributer to the programming community by writing tutorials, giving talks, and helping new coders find their footing in the world of software development. For me, coding is more than just a profession—it's a lifelong journey of learning and sharing knowledge.
                 </p>
               </div>
             </div>
