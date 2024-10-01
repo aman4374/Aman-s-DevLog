@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import Typed from 'typed.js';
 import React, {useRef, useEffect} from 'react';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -132,6 +133,8 @@ export default function Home() {
   </div>
 </section>
 
+
+
 <section className="py-12 bg-gray-100 dark:bg-gray-900">
   <div className="container px-4 mx-auto">
     <div className="text-center mb-12">
@@ -142,39 +145,46 @@ export default function Home() {
       {/* Blog 1 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-          <img src="/typescript.webp" className="w-full h-64 object-cover rounded-t-lg"/>
+          <img src="/typescript.webp" className="w-full h-64 object-cover rounded-t-lg" />
           <div className="mt-4">
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Blog Post Title 1</h3>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">TypeScript Tutorial</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the blog post goes here. It should be engaging and informative.</p>
-            <Button className="m-2" variant="outline" href="/blog-post-1">Read More</Button>
+            <Link href="/blogpost/typescript-tutorial" passHref>
+              <button className=" rounded-full m-2 px-4 py-2 bg-transparent border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-gray-200 hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-800 transition">Read More</button>
+            </Link>
           </div>
         </div>
       </div>
       {/* Blog 2 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-          <img src="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 2" className="w-full h-64 object-cover rounded-t-lg"/>
+          <img src="c.png" alt="Blog 2" className="w-full h-64 object-cover rounded-t-lg" />
           <div className="mt-4">
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Blog Post Title 2</h3>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200"> C Programming Tutorial</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the blog post goes here. It should be engaging and informative.</p>
-            <Button className="m-2" variant="outline" href="/blog-post-2">Read More</Button>
+            <Link href="/blogpost/c-tutorial" passHref>
+              <button className="rounded-full m-2 px-4 py-2 bg-transparent border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-gray-200 hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-800 transition">Read More</button>
+            </Link>
           </div>
         </div>
       </div>
       {/* Blog 3 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-          <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Blog 3" className="w-full h-64 object-cover rounded-t-lg"/>
+          <img src="shadcn.png" alt="Blog 3" className="w-full h-64 object-cover rounded-t-lg" />
           <div className="mt-4">
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Blog Post Title 3</h3>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">shadcn/ui Tutorial</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the blog post goes here. It should be engaging and informative.</p>
-            <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+            <Link href="/blogpost/next-js-tutorial" passHref>
+              <button className="rounded-full m-2 px-4 py-2 bg-transparent border border-gray-800 text-gray-800 dark:border-gray-200 dark:text-gray-200 hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-800 transition">Read More</button>
+            </Link>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <footer className="bg-gray-800 text-gray-300 py-8">
   <div className="container mx-auto px-4">
@@ -203,9 +213,9 @@ export default function Home() {
       <div className="w-full sm:w-1/2 lg:w-1/3 mb-6">
         <h4 className="text-lg font-semibold text-white">Latest Blogs</h4>
         <ul className="mt-4 space-y-2">
-          <li><a href="/blogs/c-tutorial" className="hover:underline">Mastering C Programming: A Beginner's Guide</a></li>
-          <li><a href="/blogs/javascript" className="hover:underline">Understanding JavaScript Closures</a></li>
-          <li><a href="/blogs/frontend-vs-backend" className="hover:underline">Frontend vs Backend Development: Key Differences</a></li>
+          <li><a href="/blogpost/c-tutorial" className="hover:underline">Mastering C Programming: A Beginner's Guide</a></li>
+          <li><a href="/blogpost/java-tutorial" className="hover:underline">Understanding Java Closures</a></li>
+          <li><a href="/blogpost/python-tutorial" className="hover:underline">Python Development</a></li>
         </ul>
       </div>
 
@@ -235,7 +245,7 @@ export default function Home() {
     {/* Contact Info */}
     <div className="mt-8 text-center text-gray-400">
       <p>&copy; {new Date().getFullYear()} Aman’s DevLog. All rights reserved.</p>
-      <p>Contact us: <a href="mailto:info@amansdevlog.com" className="hover:underline text-white">info@amansdevlog.com</a></p>
+      <p>Contact us: <a href="mailto:info@amansdevlog.com" className="hover:underline text-white">amantrivedi4374@gmail.com</a></p>
       <p>Phone: +91 9151726004</p>
     </div>
   </div>
