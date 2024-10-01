@@ -124,7 +124,7 @@ export default function Home() {
       {/* Testimonial 3 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">I love how this blog breaks down complex topics into digestible content. It's been a tremendous help.</p>
+          <p className="text-gray-600 dark:text-gray-400">I love how this blog breaks down complex topics into digestible content. It is been a tremendous help.</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Emily Davis</h3>
           <p className="text-gray-500 dark:text-gray-300">DevOps Specialist</p>
         </div>
@@ -213,7 +213,7 @@ export default function Home() {
       <div className="w-full sm:w-1/2 lg:w-1/3 mb-6">
         <h4 className="text-lg font-semibold text-white">Latest Blogs</h4>
         <ul className="mt-4 space-y-2">
-          <li><a href="/blogpost/c-tutorial" className="hover:underline">Mastering C Programming: A Beginner's Guide</a></li>
+          <li><a href="/blogpost/c-tutorial" className="hover:underline">Mastering C Programming: A Beginner Guide</a></li>
           <li><a href="/blogpost/java-tutorial" className="hover:underline">Understanding Java Closures</a></li>
           <li><a href="/blogpost/python-tutorial" className="hover:underline">Python Development</a></li>
         </ul>
