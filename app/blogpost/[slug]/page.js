@@ -24,7 +24,7 @@ export default async function Page({ params }) {
 
     
 
-    const filepath = `content/${params.slug}.md`;  // ./content/javascript-tutorial.md
+    const filepath = `../../../content/${params.slug}.md`;  // ./content/javascript-tutorial.md
     const fileContent = fs.readFileSync(filepath, 'utf-8');
     const { content, data } = matter(fileContent);
 
