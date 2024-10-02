@@ -22,6 +22,9 @@ export default async function Page({ params }) {
         content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
     };
 
+
+    console.log(__dirname)
+    
     const filepath = `./content/${params.slug}.md`;  // ./content/javascript-tutorial.md
     const fileContent = fs.readFileSync(filepath, 'utf-8');
     const { content, data } = matter(fileContent);
