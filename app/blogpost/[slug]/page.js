@@ -23,9 +23,9 @@ export default async function Page({ params }) {
     };
 
 
-    console.log(__dirname)
-    
-    const filepath = `./content/${params.slug}.md`;  // ./content/javascript-tutorial.md
+
+
+    const filepath = `/var/task/.next/server/content/${params.slug}.md`;  // ./content/javascript-tutorial.md
     const fileContent = fs.readFileSync(filepath, 'utf-8');
     const { content, data } = matter(fileContent);
 
