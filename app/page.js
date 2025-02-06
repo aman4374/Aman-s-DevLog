@@ -245,7 +245,7 @@ export default function Home() {
     {/* Contact Info */}
     <div className="mt-8 text-center text-gray-400">
       <p>&copy; {new Date().getFullYear()} Aman’s DevLog. All rights reserved.</p>
-      <p>Contact us: <a href="mailto:info@amansdevlog.com" className="hover:underline text-white">amantrivedi4374@gmail.com</a></p>
+      <p>Contact us: <a href="mailto:amantrivedi4374@gmail.com" className="hover:underline text-white">amantrivedi4374@gmail.com</a></p>
       <p>Phone: +91 9151726004</p>
     </div>
   </div>
